@@ -9,7 +9,7 @@ class Snake:
         self.head = self.segments[0]
 
     def create_snake(self):
-        for position in range(15):
+        for position in range(5):
             self.add_segment(position)
 
     def extend(self):
